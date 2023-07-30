@@ -1,0 +1,182 @@
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+p.header {
+	font-size: 1.1em;
+	position: absolute;
+	left: 50px;
+	font-family: "Red Hat Display", sans-serif;
+}
+h3.boldHeader {
+	position: absolute;
+	left: 50px;
+	top: 25px;
+	font-family: "Red Hat Display", sans-serif;
+	font-weight: 900;
+}
+p.featureSummary {
+	position: absolute;
+	left: 50px;
+	top: 60px;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 0.8em;
+}
+button.card1 {
+	border: none;
+	border-top: 2px ridge cyan;
+	width: 250px;
+	height: 180px;
+	position: absolute;
+	left: 50px;
+	top: 160px;
+	border-radius: 2%;
+	background-color: white;
+}
+button.card2 {
+	border: none;
+	border-top: 2px ridge red;
+	width: 250px;
+	height: 180px;
+	position: absolute;
+	top: 360px;
+	left: 50px;
+	border-radius: 2%;
+	backgorund-color: white;
+}
+button.card3 {
+	border: none;
+	border-top: 2px ridge orange;
+	width: 250px;
+	height: 180px;
+	position: absolute;
+	top: 560px;
+	left: 50px;
+	border-radius: 2%;
+	background-color: white;
+}
+button.card4 {
+	border: none;
+	border-top: 2px ridge blue;
+	width: 250px;
+	height: 180px;
+	position: absolute;
+	top: 760px;
+	left: 50px;
+	border-radius: 2%;
+	background-color: white;
+}
+img.card1Img {
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+img.card2Img {
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+img.card3Img {
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+img.card4Img {
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+h3.card1Header{
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+p.card1Summary {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 25px;
+	left: 10px; 
+	text-align: start;
+}
+h3.card2Header {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+p.card2Summary {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	text-align: start;
+}
+h3.card3Header {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+p.card3Summary {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	text-align: start;
+}
+h3.card4Header {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+p.card4Summary {
+	font-family: "Red Hat Display", sans-serif;
+	position: absolute;
+	top: 25px;
+	left: 10px;
+	text-align: start;
+}
+
+@media (min-width: 600px) {
+	p.header {
+		position: absolute;
+		left: 440px;
+	}
+	
+	h3.boldHeader {
+		position: absolute;
+		left: 440px;
+	}
+	
+	p.featureSummary {
+		position: absolute;
+		left: 430px;
+		text-align: center;
+		display: block;
+	}
+	
+	button.card1 {
+		position: absolute;
+		left: 170px;
+		top: 240px;
+	}
+	
+	button.card2 {
+		position: absolute;
+		left: 430px;
+		top: 160px;
+	}
+	
+	button.card3 {
+		position: absolute;
+		left: 430px;
+		top: 360px;
+	}
+	
+	button.card4 {
+		position: absolute;
+		top: 240px;
+		left: 690px;
+	}
+}
